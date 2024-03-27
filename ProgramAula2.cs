@@ -86,6 +86,26 @@ namespace HellowWorld{
             } else{ // SE NAO
                 Console.WriteLine("É mentira");
             }
+
+            //OPERADORES LOGICOS 
+
+            /*
+                TIPOS:
+                       &&            || 
+                    (E / and)    (OU / or )
+
+                Esses operadores funcionam para garantir que mais de uma condição seja verdadeira ou não 
+                por exemplo 
+                o operador && (E / AND) 
+                Ele é responsável por garantir que as duas condições sejam verdadeiras 
+                caso as duas sejam verdadeiras então o código irá rodar aquele determinado bloco
+
+                o operador || (OU / OR)
+                Este operador atende uma ou outra condição caso uma ou a outra, ou ambas sejam verdadeiras então o resultado 
+                é execução do bloco de código 
+            */
+
+
         }
     }
 }
