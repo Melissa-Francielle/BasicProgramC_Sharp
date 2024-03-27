@@ -104,7 +104,20 @@ namespace HellowWorld{
                 Este operador atende uma ou outra condição caso uma ou a outra, ou ambas sejam verdadeiras então o resultado 
                 é execução do bloco de código 
             */
+            int numDois = 20;
+            int numUm = 30;
+            int numTres = 20;
+            int numQuatro = 40;
 
+            if (numDois != numUm && numDois == numTres){
+                Console.WriteLine("É verdade (AND)");
+            } else if (numTres != numQuatro || numDois == numUm){
+                Console.WriteLine("É verdade (OR)");
+
+            } else{
+                Console.WriteLine("É Mentira");
+
+            }
 
         }
     }
