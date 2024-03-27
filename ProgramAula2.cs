@@ -7,7 +7,9 @@ namespace HellowWorld{
             //ENTRADA DE USUARIO 
             string nome = " ";
             Console.WriteLine("Escreva seu nome: ");
+            #pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
             nome = Console.ReadLine();
+            #pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
             Console.WriteLine("Seu nome é: "+ nome);
 
             Console.ReadLine();
@@ -40,7 +42,6 @@ namespace HellowWorld{
             */
             
             if (10 > 200){
-                Console.WriteLine("É verdade");
             } else{
                 Console.WriteLine("É mentira");
             }
@@ -48,7 +49,6 @@ namespace HellowWorld{
             if(250 >= 250){
                 Console.WriteLine("É verdade");
             } else{
-                Console.WriteLine("É mentira");
             }
 
             //ELSE IF 
@@ -58,17 +58,13 @@ namespace HellowWorld{
             */
 
             if(1 > 20 ){ //SE 
-                Console.WriteLine("É verdade");
             } else if(20 == 20){ 
                 Console.Write("Executou o else if");
             } else{ // SE NAO
-                Console.WriteLine("É mentira");
             }
 
             if(1 > 20){ //SE 
-                Console.WriteLine("É verdade");
             } else if(20 !=20){ 
-                Console.Write("Executou o else if");
             } else{ // SE NAO
                 Console.WriteLine("É mentira");
             }
